@@ -1,0 +1,64 @@
+body
+{
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #eee;
+    width: 520px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+#todoapp
+{
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+h1
+{
+    text-align: center;
+}
+
+#new-todo
+{
+    width: 466px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    border: 1px solid #999;
+    font-size: 24px;
+    line-height: 1.4em;
+    padding: 6px;
+}
+
+#todo-list
+{
+
+}
+
+#todo-list div
+{
+    border-bottom: 1px solid #cccccc;
+    font-size: 24px;
+}
+
+#todo-list :last-child
+{
+    border-bottom: none;
+}
+
+.complete
+{
+    color: #bbb;
+    text-decoration: line-through;
+}
+
+.todo-item
+{
+    position: relative;
+    color: #777;
+}
+
+.todo-item input
+{
+    margin-right: 10px;
+}
